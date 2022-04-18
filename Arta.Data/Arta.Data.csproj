@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Context\MyContext.cs" />
     <Compile Include="Models\Detail.cs" />
     <Compile Include="Models\Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
