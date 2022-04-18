@@ -8,7 +8,7 @@ using Arta.Data.Models;
 
 namespace Arta.Data.Context
 {
-    public class MyContext
+    public class MyContext:DbContext
     {
         public DbSet<Main> Main { get; set; }
         public DbSet<Detail> Detail { get; set; }
